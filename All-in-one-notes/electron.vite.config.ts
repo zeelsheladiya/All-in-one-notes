@@ -1,6 +1,6 @@
-import { resolve } from 'path'
-import { defineConfig, externalizeDepsPlugin } from 'electron-vite'
 import react from '@vitejs/plugin-react'
+import { defineConfig, externalizeDepsPlugin } from 'electron-vite'
+import { resolve } from 'path'
 
 export default defineConfig({
   main: {
@@ -8,7 +8,7 @@ export default defineConfig({
     resolve: {
       alias: {
         '@/lib': resolve('src/main/lib'),
-        '@/shared': resolve('src/shared')
+        '@shared': resolve('src/shared')
       }
     }
   },
@@ -16,7 +16,7 @@ export default defineConfig({
     plugins: [externalizeDepsPlugin()]
   },
   renderer: {
-    assetsInclude: 'src/rendererassets/**',
+    assetsInclude: 'src/renderer/assets/**',
     resolve: {
       alias: {
         '@renderer': resolve('src/renderer/src'),
