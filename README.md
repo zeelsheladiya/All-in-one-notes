@@ -26,7 +26,7 @@ This application is inspired by [@CodeWithGionatha Labs](https://github.com/Code
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/all-in-one-notes.git
+   git clone https://github.com/zeelsheladiya/All-in-one-notes.git
 
 2. Navigate to the project directory:
    ```bash
