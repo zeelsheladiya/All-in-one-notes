@@ -30,7 +30,7 @@ This application is inspired by [@CodeWithGionatha Labs](https://github.com/Code
 
 2. Navigate to the project directory:
    ```bash
-   cd all-in-one-notes
+   cd All-in-one-notes
 
 3. Install dependencies:
    ```bash
